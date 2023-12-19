@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <footer className="flex justify-between gap-24">
+      <footer className="flex justify-between gap-24 my-16">
         <div>
           <h2 className="text-2xl text-black font-bold">NFTERS</h2>
           <p className="mt-7 mb-8 text-[#565656] text-[14px]">
@@ -40,7 +40,7 @@ const Footer = () => {
             <Link className="hover:underline">Settings</Link>
           </ul>
         </div>
-        <div>
+        <div className="">
           <h1 className="text-xl font-bold text-black mb-6">
             Stay in the loop
           </h1>
@@ -55,7 +55,7 @@ const Footer = () => {
               className="border border-gray-300 px-4 py-3 rounded-[45.595px] w-full pr-16"
               placeholder="Enter your email address.."
             />
-            <button className="absolute inset-y-0 right-0 bg-[#2639ED] text-white px-4 py-2 rounded-[45.595px]">
+            <button className="absolute top-2 right-2 bg-[#2639ED] text-xs text-white px-4 py-2 rounded-[45.595px]">
               Subscibe Now
             </button>
           </div>

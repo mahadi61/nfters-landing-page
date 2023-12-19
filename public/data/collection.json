@@ -1,0 +1,87 @@
+[
+  {
+    "author": {
+      "name": "Arkhan",
+      "profilePhoto": "./../image/collection/author.png"
+    },
+    "imageCollection": [
+      {
+        "id": 1,
+        "title": "Image 1",
+        "url": "./../image/collection/author-1.1.png"
+      },
+      {
+        "id": 2,
+        "title": "Image 2",
+        "url": "./../image/collection/author-1.2.png"
+      },
+      {
+        "id": 3,
+        "title": "Image 3",
+        "url": "./../image/collection/author-1.3.png"
+      },
+      {
+        "id": 4,
+        "title": "Image 4",
+        "url": "./../image/collection/author-1.4.png"
+      }
+    ]
+  },
+  {
+    "author": {
+      "name": "John Doe",
+      "profilePhoto": "./../image/collection/author.png"
+    },
+    "imageCollection": [
+      {
+        "id": 1,
+        "title": "Image 1",
+        "url": "./../image/collection/author-2.1.png"
+      },
+      {
+        "id": 2,
+        "title": "Image 2",
+
+        "url": "./../image/collection/author-1.3.png"
+      },
+      {
+        "id": 3,
+        "title": "Image 3",
+        "url": "./../image/collection/author-1.2.png"
+      },
+      {
+        "id": 4,
+        "title": "Image 4",
+        "url": "./../image/collection/author-1.4.png"
+      }
+    ]
+  },
+  {
+    "author": {
+      "name": "John Doe",
+      "profilePhoto": "./../image/collection/author.png"
+    },
+    "imageCollection": [
+      {
+        "id": 1,
+        "title": "Image 1",
+        "url": "./../image/collection/author-1.1.png"
+      },
+      {
+        "id": 2,
+        "title": "Image 2",
+        "url": "./../image/collection/author-1.2.png"
+      },
+      {
+        "id": 3,
+        "title": "Image 3",
+        "url": "./../image/collection/author-1.3.png"
+      },
+      {
+        "id": 4,
+        "title": "Image 4",
+        "url": "./../image/collection/author-1.4.png"
+      }
+    ]
+  }
+]

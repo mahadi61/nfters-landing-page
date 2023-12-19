@@ -5,9 +5,13 @@ import Navbar from "../Shared/Navbar/Navbar";
 const MainLayout = () => {
   return (
     <>
-      <Navbar />
+      <div className="w-11/12 lg:max-w-7xl mx-auto">
+        <Navbar />
+      </div>
       <Outlet />
-      <Footer />
+      <div className="w-11/12 lg:max-w-7xl mx-auto">
+        <Footer />
+      </div>
     </>
   );
 };
