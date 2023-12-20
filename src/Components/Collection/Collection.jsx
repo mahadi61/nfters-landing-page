@@ -11,7 +11,7 @@ const Collection = () => {
   }, []);
 
   return (
-    <div className="bg-[#D9E0EC33] h-[619px]">
+    <div className="bg-[#D9E0EC33] h-[619px] flex items-center justify-center">
       <div className="w-11/12 lg:max-w-7xl mx-auto">
         <h1 className="text-black text-3xl font-bold uppercase mb-14">
           Collection Featured NFTs
