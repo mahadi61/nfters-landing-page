@@ -2,23 +2,19 @@ import { useEffect, useState } from "react";
 import DiscoverCard from "./DiscoverCard";
 import FilterDropdown from "./FilterDropdown";
 
-const category = [
-  "Art",
-  "Celebrities",
-  "Gaming",
-  " Sport",
-  "Music",
-  "  Crypto",
-];
+const category = ["Art", "Celebrities", "Gaming", "Sport", "Music", "Crypto"];
 
 const DiscoverNft = () => {
   const [allNft, setAllNft] = useState([]);
+  const [showAllNfts, setShowAllNfts] = useState(false);
 
   useEffect(() => {
     fetch("./data/nftData.json")
       .then((res) => res.json())
       .then((data) => setAllNft(data));
   }, []);
+
+  let displayedNfts = showAllNfts ? allNft : allNft.slice(0, 16);
 
   return (
     <div className="bg-[#D9E0EC33]">
@@ -44,13 +40,16 @@ const DiscoverNft = () => {
           <FilterDropdown />
         </div>
         <div className="grid grid-cols-4 gap-10 mt-10">
-          {allNft.slice(1, 17).map((data, i) => (
+          {displayedNfts.map((data, i) => (
             <DiscoverCard key={i} data={data}></DiscoverCard>
           ))}
         </div>
         <div className="flex items-center justify-center mt-16">
-          {allNft.length > 16 && (
-            <button className="px-10 py-5 rounded-[50px] border-2 border-[#3D00B7] text-[#4F33A3] text-xl font-medium hover:bg-[#3D00B7] hover:text-white">
+          {!showAllNfts && allNft.length > 16 && (
+            <button
+              onClick={() => setShowAllNfts(true)}
+              className="px-10 py-5 rounded-[50px] border-2 border-[#3D00B7] text-[#4F33A3] text-xl font-medium hover:bg-[#3D00B7] hover:text-white"
+            >
               More NFTs
             </button>
           )}
