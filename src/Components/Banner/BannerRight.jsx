@@ -4,7 +4,7 @@ const BannerRight = () => {
   return (
     <div>
       <div className="relative ">
-        <img src="../../../public/image/banner-image.png" alt="" />
+        <img src="./image/banner-image.png" alt="" />
         <img
           src="../../../public/image/bdge.png"
           alt=""
