@@ -6,7 +6,7 @@ const BannerRight = () => {
       <div className="relative ">
         <img src="./image/banner-image.png" alt="" />
         <img
-          src="./../../public/image/bdge.png"
+          src="./image/bdge.png"
           alt=""
           className="absolute  top-1/3 -left-20"
         />
