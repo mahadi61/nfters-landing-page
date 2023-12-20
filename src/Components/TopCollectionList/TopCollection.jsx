@@ -4,8 +4,8 @@ import NftTopCollection from "./NftTopCollection";
 
 const TopCollection = () => {
   return (
-    <div className="h-[800px] flex items-center justify-center">
-      <div className="w-11/12 lg:max-w-7xl mx-auto grid grid-cols-3 gap-12">
+    <div className="md:h-[800px] py-10 flex items-center justify-center">
+      <div className="w-11/12 lg:max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
         <div>
           <img src="./image/top-collection-1.png" alt="" />
           <div className="flex justify-between items-center mt-8">

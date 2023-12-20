@@ -36,7 +36,7 @@ const ImageList = () => {
             <p className="text-xl font-bold text-black">{data?.name}</p>
             <div className="flex justify-between items-center gap-1">
               <img src={data?.image} alt="" />
-              <p className="flex justify-between items-center gap-2 rounded-lg text-[#00AC4F] border-2 border-[#00AC4F] p-2 text-xs font-bold">
+              <p className="flex justify-between items-center md:gap-2 rounded-lg text-[#00AC4F] border-2 border-[#00AC4F] p-2 text-xs font-bold">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="13"
