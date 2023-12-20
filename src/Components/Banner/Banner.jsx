@@ -1,8 +1,9 @@
 import Button from "../../utilities/Button";
+import BannerRight from "./BannerRight";
 
 const Banner = () => {
   return (
-    <div className="flex justify-center items-center h-fit">
+    <div className="flex justify-center items-center min-h-screen">
       <div className="w-11/12 lg:max-w-7xl flex justify-between items-center">
         <div className="w-1/2 flex flex-col">
           <h1 className="text-5xl text-black font-bold mb-4">
@@ -31,7 +32,9 @@ const Banner = () => {
           </div>
         </div>
         {/* banner right side image */}
-        <div></div>
+        <div>
+          <BannerRight />
+        </div>
       </div>
     </div>
   );
