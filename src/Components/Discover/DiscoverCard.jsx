@@ -8,7 +8,7 @@ const DiscoverCard = ({ data }) => {
         <img
           src={image}
           alt=""
-          className="h-[222px] w-[247px] object-cover rounded-lg"
+          className="md:h-[222px] md:w-[247px] h-full w-full object-cover rounded-lg"
         />
         <div className="flex items-center absolute left-5 -bottom-3">
           {people.map((man, i) => (

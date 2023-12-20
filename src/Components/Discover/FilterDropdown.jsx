@@ -4,7 +4,7 @@ const FilterDropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="relative inline-block text-left">
+    <div className="relative md:inline-block text-left hidden">
       <button
         onClick={() => setIsOpen(!isOpen)}
         type="button"

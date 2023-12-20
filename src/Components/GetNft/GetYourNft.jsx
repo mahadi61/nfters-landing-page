@@ -3,12 +3,12 @@ import NftPhoto from "./NftPhoto";
 
 const GetYourNft = () => {
   return (
-    <div className="h-[790px] w-11/12 lg:max-w-7xl mx-auto flex justify-center items-center">
-      <div className="flex justify-between items-center gap-10">
-        <div className="w-1/2">
+    <div className="md:h-[790px] w-11/12 lg:max-w-7xl mx-auto flex justify-center items-center my-6 md:my-0">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-10">
+        <div className="md:w-1/2">
           <NftPhoto />
         </div>
-        <div className="w-1/2">
+        <div className="md:w-1/2">
           <h1 className="text-3xl font-extrabold text-black mb-10 uppercase">
             Create and <br /> sell your NFTs
           </h1>

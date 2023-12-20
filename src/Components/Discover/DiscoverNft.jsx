@@ -19,11 +19,11 @@ const DiscoverNft = () => {
   return (
     <div className="bg-[#D9E0EC33]">
       <div className="w-11/12 lg:max-w-7xl mx-auto py-16">
-        <h1 className="text-[38px] text-black font-bold uppercase mb-9">
+        <h1 className="text-2xl md:text-[38px] text-black font-bold uppercase mb-9">
           Discover more NFTs
         </h1>
         <div className="flex justify-between items-center">
-          <div className="flex items-center gap-3">
+          <div className="flex flex-col md:flex-row items-center gap-3">
             <button className="bg-[#3D00B7] text-white px-5 py-2 rounded-[100px]">
               All Categories
             </button>
@@ -39,7 +39,7 @@ const DiscoverNft = () => {
           {/* dropdown */}
           <FilterDropdown />
         </div>
-        <div className="grid grid-cols-4 gap-10 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-10 mt-10">
           {displayedNfts.map((data, i) => (
             <DiscoverCard key={i} data={data}></DiscoverCard>
           ))}
