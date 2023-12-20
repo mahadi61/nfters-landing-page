@@ -5,7 +5,11 @@ const DiscoverCard = ({ data }) => {
   return (
     <div className="bg-white p-3 rounded-xl ">
       <div className="relative">
-        <img src={image} alt="" className="h-[222px] w-[247px] object-cover" />
+        <img
+          src={image}
+          alt=""
+          className="h-[222px] w-[247px] object-cover rounded-lg"
+        />
         <div className="flex items-center absolute left-5 -bottom-3">
           {people.map((man, i) => (
             <img
