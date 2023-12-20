@@ -52,10 +52,10 @@ const Footer = () => {
           <div className="relative">
             <input
               type="text"
-              className="border border-gray-300 px-4 py-3 rounded-[45.595px] w-full pr-16"
+              className="border border-gray-300 px-4 py-3 rounded-[45.595px] w-full pr-16 text-sm"
               placeholder="Enter your email address.."
             />
-            <button className="absolute top-2 right-2 bg-[#2639ED] text-xs text-white px-4 py-2 rounded-[45.595px]">
+            <button className="absolute top-2 right-2 bg-[#2639ED] text-xs font-bold text-white px-4 py-2 rounded-[45.595px]">
               Subscibe Now
             </button>
           </div>
