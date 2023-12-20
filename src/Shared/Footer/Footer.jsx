@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <footer className="flex justify-between gap-24 my-16">
+      <footer className="grid grid-cols-1  md:grid-cols-4 gap-7 md:gap-24 my-16">
         <div>
           <h2 className="text-2xl text-black font-bold">NFTERS</h2>
           <p className="mt-7 mb-8 text-[#565656] text-[14px]">
