@@ -7,7 +7,7 @@ const Feature = () => {
         </h1>
 
         <div className="flex gap-3 max-w-xs">
-          <img src="./public/icon/card-tick-1.png" alt="" className="w-9 h-9" />
+          <img src="./icon/card-tick-1.png" alt="" className="w-9 h-9" />
           <div>
             <h1 className="text-xl font-bold text-black mb-3">
               Fast Transaction
@@ -20,11 +20,7 @@ const Feature = () => {
         </div>
 
         <div className="flex gap-3 max-w-xs">
-          <img
-            src="./public/icon/chart-square-2.png"
-            alt=""
-            className="w-9 h-9"
-          />
+          <img src="./icon/chart-square-2.png" alt="" className="w-9 h-9" />
           <div>
             <h1 className="text-xl font-bold text-black mb-3">
               Growth Transaction

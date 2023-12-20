@@ -7,10 +7,10 @@ const TopCollection = () => {
     <div className="h-[800px] flex items-center justify-center">
       <div className="w-11/12 lg:max-w-7xl mx-auto grid grid-cols-3 gap-12">
         <div>
-          <img src="../../../public/image/top-collection-1.png" alt="" />
+          <img src="./image/top-collection-1.png" alt="" />
           <div className="flex justify-between items-center mt-8">
             <div className="flex items-center gap-2">
-              <img src="../../../public/image/author-4848.png" alt="" />
+              <img src="./image/author-4848.png" alt="" />
               <div>
                 <p className="text-black text-xl font-bold">The Futr Abstr</p>
                 <p>10 in the stock</p>

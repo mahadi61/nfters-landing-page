@@ -16,7 +16,7 @@ const BannerRight = () => {
               Abstr Gradient NFT
             </h1>
             <div className="flex items-center gap-3 mt-2">
-              <img src="./../../public/image/collection/author.png" alt="" />
+              <img src="./image/collection/author.png" alt="" />
               <p className="text-xl font-semibold text-white">Arkhan17</p>
             </div>
           </div>

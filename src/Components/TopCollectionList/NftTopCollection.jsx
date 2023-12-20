@@ -3,35 +3,35 @@ import Eth from "../../utilities/Eth";
 const NftTopCollection = () => {
   const nftTopData = [
     {
-      image: "../../../public/image/top-1.png",
+      image: "./image/top-1.png",
       eth: "19,769.39",
       percentage: "+26.52",
       name: "CryptoFunks",
       verify: true,
     },
     {
-      image: "../../../public/image/top-2.png",
+      image: "./image/top-2.png",
       eth: "19,769.39",
       percentage: "+18.52",
       name: "Art Crypto",
       verify: false,
     },
     {
-      image: "../../../public/image/top-3.png",
+      image: "./image/top-3.png",
       eth: "19,769.39",
       percentage: "+10.52",
       name: "PunkArt",
       verify: false,
     },
     {
-      image: "../../../public/image/top-4.png",
+      image: "./image/top-4.png",
       eth: "19,769.39",
       percentage: "+16.52",
       name: "Frensware",
       verify: true,
     },
     {
-      image: "../../../public/image/top-5.png",
+      image: "./image/top-5.png",
       eth: "19,769.39",
       percentage: "+2.52",
       name: "Cryptix",
@@ -56,7 +56,7 @@ const NftTopCollection = () => {
                   <img src={data?.image} alt="" />
                   {data?.verify && (
                     <img
-                      src="../../../public/image/verify-img.png"
+                      src="./image/verify-img.png"
                       alt=""
                       className="absolute -right-2 -top-2"
                     />
