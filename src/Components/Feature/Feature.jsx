@@ -1,8 +1,8 @@
 const Feature = () => {
   return (
-    <div className="bg-[#D9E0EC33] h-[326px] flex justify-center items-center">
-      <div className=" w-11/12 lg:max-w-7xl mx-auto flex justify-between items-center">
-        <h1 className="text-3xl font-bold text-black max-w-sm uppercase">
+    <div className="bg-[#D9E0EC33] md:h-[326px] py-10 flex justify-center items-center">
+      <div className=" w-11/12 lg:max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
+        <h1 className="text-3xl font-bold text-black max-w-sm uppercase mb-4 md:mb-0">
           The amazing NFT art of the world here
         </h1>
 
