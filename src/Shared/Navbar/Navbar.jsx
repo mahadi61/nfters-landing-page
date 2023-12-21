@@ -65,12 +65,12 @@ const Navbar = () => {
 
         <ul className={`md:flex space-x-4 hidden `}>{menuItem}</ul>
 
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center space-x-2 ms-1 md:ms-0">
           <div className="relative">
             <input
               type="text"
               placeholder="Search"
-              className="py-3 ps-5 pe-16 border border-[#EFEFEF] focus:outline-none rounded-[100px]"
+              className="md:py-3 py-2 ps-2 md:ps-5 md:pe-16 border border-[#EFEFEF] focus:outline-none rounded-[100px] hidden md:block"
             />
             <span className="absolute right-5 top-1/2 transform -translate-y-1/2 cursor-pointer">
               <svg
